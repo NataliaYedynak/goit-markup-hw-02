@@ -86,6 +86,23 @@ body {
 .benefits-title{
 
 }
+.benefits-texts{
+
+}
+.benefits-item{
+
+}
 .benefits-titles{
-    
+font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: ;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.benefits-text{
+font-size: 16px;
+    line-height: ;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
