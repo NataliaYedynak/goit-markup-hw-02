@@ -39,10 +39,10 @@ body {
   text-decoration: none;
 }
 .header-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .header-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -59,10 +59,10 @@ body {
   color: #434455;
 }
 .contacts-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .contacts-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 /*Main block*/
 .main {
