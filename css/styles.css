@@ -3,21 +3,19 @@ body {
   color: #434455;
 }
 :root {
-  --brand-color: ;
+  --brand-color: #2e2f42;
 }
 /*Header section*/
 .header {
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-nav {
-}
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
 }
 .accent {
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 .header-navigation-links {
   font-style: normal;
@@ -25,7 +23,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 .header-navigation-links:hover {
   color: #4d5ae5;
@@ -33,14 +31,8 @@ body {
 .header-navigation-links:focus {
   color: #4d5ae5;
 }
-.header-item {
-}
-.header-link {
-}
 .address {
   color: #434455;
-}
-.address-links {
 }
 .address-item {
   font-style: normal;
@@ -50,6 +42,7 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts-link {
+    color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -60,7 +53,7 @@ body {
 }
 /*Hero section*/
 .hero {
-  background: #2e2f42;
+  background: var(--brand-color);
 }
 .hero-title {
   font-style: normal;
@@ -80,21 +73,13 @@ body {
   background: #404bbf;
 }
 /*Benefits section*/
-.benefits {
-}
-.benefits-title {
-}
-.benefits-texts {
-}
-.benefits-item {
-}
 .benefits-titles {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 .benefits-text {
   font-size: 16px;
@@ -111,7 +96,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 /*Team section*/
 .team-title {
@@ -122,7 +107,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 .team-titles {
   font-style: normal;
@@ -131,7 +116,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 .team-text {
   font-style: normal;
@@ -143,6 +128,9 @@ body {
   color: #434455;
 }
 /*Footer section*/
+.footer{
+  background: var(--brand-color);
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
