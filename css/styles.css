@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-white-color);
+  color: #434455;
+  background-color: var(--primary-white-color);
 }
 :root {
   --primary-white-color: #ffffff;
@@ -19,6 +20,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.link{
+  text-decoration: none;
 }
 .accent {
   color: var(--brand-color);
@@ -65,7 +69,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -139,6 +143,11 @@ body {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-text {
