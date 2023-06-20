@@ -44,7 +44,7 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--active-link-color);
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -201,8 +201,8 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--active-link-color);
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
 .row-link {
   position: absolute;
