@@ -42,9 +42,7 @@ body {
   color: var(--brand-color);
   text-decoration: none;
 }
-.header-link:hover {
-  color: var(--active-link-color);
-}
+.header-link:hover,
 .header-link:focus {
   color: var(--active-link-color);
 }
@@ -62,9 +60,7 @@ body {
 .contacts-link {
   color: #434455;
 }
-.contacts-link:hover {
-  color: var(--active-link-color);
-}
+.contacts-link:hover,
 .contacts-link:focus {
   color: var(--active-link-color);
 }
@@ -203,12 +199,9 @@ body {
   color: var(--primary-accent-color);
   background-color: var(--secondary-accent-color);
 }
-.main-button:hover {
-  color: #FFFFFF;
-  background-color: var(--active-link-color);
-}
+.main-button:hover,
 .main-button:focus {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: var(--active-link-color);
 }
 .row-link {
