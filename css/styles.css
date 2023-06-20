@@ -6,6 +6,9 @@ body {
 :root {
   --primary-white-color: #ffffff;
   --brand-color: #2e2f42;
+  --primary-accent-color: #4d5ae5;
+  --secondary-accent-color: #f4f4fd;
+  --primary-color: #434455;
 }
 /*Header section*/
 .header {
@@ -185,27 +188,30 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--brand-color);
-  background-color: var(--primary-white-color);
+  color: var(--primary-accent-color);
+  background-color: var(--secondary-accent-color);
 }
 .main-button:hover {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .main-button:focus {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
-.row-title{
+.row-link{
+  
+}
+.row-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
-.row-text{
+.row-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--brand-color);
+  color: var(--primary-color);
 }
