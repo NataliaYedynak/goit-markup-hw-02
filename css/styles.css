@@ -9,6 +9,7 @@ body {
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #f4f4fd;
   --primary-color: #434455;
+  --active-link-color: #404BBF;
 }
 /*Header section*/
 .header {
@@ -42,10 +43,10 @@ body {
   text-decoration: none;
 }
 .header-link:hover {
-  color: #404bbf;
+  color: var(--active-link-color);
 }
 .header-link:focus {
-  color: #404bbf;
+  color: var(--active-link-color);
 }
 .address {
   font-style: normal;
@@ -62,10 +63,10 @@ body {
   color: #434455;
 }
 .contacts-link:hover {
-  color: #404bbf;
+  color: var(--active-link-color);
 }
 .contacts-link:focus {
-  color: #404bbf;
+  color: var(--active-link-color);
 }
 /*Main block*/
 .main {
@@ -95,7 +96,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background: var(--active-link-color);
 }
 /*Benefits section*/
 .benefits-titles {
@@ -204,11 +205,11 @@ body {
 }
 .main-button:hover {
   color: #FFFFFF;
-  background-color: #404bbf;
+  background-color: var(--active-link-color);
 }
 .main-button:focus {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: var(--active-link-color);
 }
 .row-link {
   position: absolute;
