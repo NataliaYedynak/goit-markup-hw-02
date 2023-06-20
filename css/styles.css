@@ -203,12 +203,12 @@ body {
   background-color: var(--secondary-accent-color);
 }
 .main-button:hover {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #404bbf;
 }
 .main-button:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 .row-link {
   position: absolute;
