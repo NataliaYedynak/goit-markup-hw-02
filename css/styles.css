@@ -101,6 +101,9 @@ body {
   background-color: #404bbf;
 }
 /*Benefits section*/
+.benefits-item{
+  background-color: #FFFFFF;
+}
 .benefits-titles {
   font-style: normal;
   font-weight: 500;
