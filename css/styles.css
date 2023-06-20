@@ -128,11 +128,6 @@ body {
 }
 /*Team section*/
 .team {
-  position: absolute;
-  width: 1440px;
-  height: 732px;
-  left: 0px;
-  top: 1548px;
   background-color: #f4f4fd;
 }
 .team-title {
