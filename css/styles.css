@@ -123,6 +123,17 @@ body {
   text-transform: capitalize;
   color: var(--brand-color);
 }
+.servis-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 156px;
+  top: 1128px;
+}
 /*Team section*/
 .team {
   background-color: #f4f4fd;
@@ -199,8 +210,14 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.row-link{
-  
+.row-link {
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  background: url(tp238-pf-s73-05-mockup);
+  mix-blend-mode: normal;
 }
 .row-title {
   font-weight: 500;
