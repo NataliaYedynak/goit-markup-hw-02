@@ -9,7 +9,7 @@ body {
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #f4f4fd;
   --primary-color: #434455;
-  --active-link-color: #404BBF;
+  --active-link-color: #404bbf;
 }
 /*Header section*/
 .header {
@@ -69,6 +69,11 @@ body {
 }
 /*Hero section*/
 .hero {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
   background: var(--brand-color);
 }
 .hero-title {
@@ -95,6 +100,25 @@ body {
   background: var(--active-link-color);
 }
 /*Benefits section*/
+.benefits {
+  position: absolute;
+  width: 1128px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
+}
+.benefits-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 264px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
+}
 .benefits-titles {
   font-style: normal;
   font-weight: 500;
@@ -133,6 +157,11 @@ body {
 }
 /*Team section*/
 .team {
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px;
   background-color: #f4f4fd;
 }
 .team-title {
@@ -146,7 +175,21 @@ body {
   color: var(--brand-color);
 }
 .team-item {
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 444px;
+  top: 1780px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-titles {
   font-style: normal;
@@ -168,6 +211,11 @@ body {
 }
 /*Footer section*/
 .footer {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
   background: var(--brand-color);
 }
 .footer-logo {
@@ -188,7 +236,19 @@ body {
 .footer-accent {
   color: #f4f4fd;
 }
-/*Portfolio Main*/
+/*Portfolio*/
+.main-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 586px;
+  height: 48px;
+  left: 427px;
+  top: 168px;
+}
 .main-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -201,8 +261,14 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.row-item {
+  position: absolute;
+  width: 1128px;
+  height: 420px;
+  left: 156px;
 }
 .row-link {
   position: absolute;
